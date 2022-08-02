@@ -6,6 +6,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selectors.byAttribute;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -69,11 +70,11 @@ public class GeneratedTests extends TestBase {
         });
 
         step("Set button 'Купить билет'", () -> {
-            $("#block-magazin").click();
+            $(byAttribute("href", "/event/597BFBF1F62946E0EC6768D9326B3407BD417633")).click();
         });
 
-        step("Title should have text: Tsarskoe Selo State Museum and Heritage Site", () -> {
-            $("#block-tzar-theme-branding").shouldHave(text("Tsarskoe Selo State Museum and Heritage Site"));
+        step("Title should have text: Экскурсионное обслуживание предоставляется при формировании группы от 15 до 20 человек.", () -> {
+            $(".row").shouldHave(text("Екатерининский дворец (Маршрут 1) и посещение парка"));
         });
     }
 
