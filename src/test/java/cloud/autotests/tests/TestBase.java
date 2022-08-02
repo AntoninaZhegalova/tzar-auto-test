@@ -20,9 +20,10 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class TestBase {
     @BeforeAll
     static void beforeAll() {
-        Configuration.baseUrl = "https://tzar.ru/";
+        Configuration.baseUrl = "https://tzar.ru";
 
         DriverSettings.configure();
+        Configuration.browserSize = "1366x768";
     }
 
     @BeforeEach

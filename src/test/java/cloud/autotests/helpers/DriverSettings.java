@@ -2,6 +2,7 @@ package cloud.autotests.helpers;
 
 import cloud.autotests.config.Project;
 import com.codeborne.selenide.Configuration;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -10,7 +11,7 @@ import java.util.Map;
 
 public class DriverSettings {
 
-    public static void configure() {
+    public static void  configure() {
         Configuration.browser = Project.config.browser();
         Configuration.browserSize = Project.config.browserSize();
 //        Configuration.baseUrl = App.config.webUrl();
