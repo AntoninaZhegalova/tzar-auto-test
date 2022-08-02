@@ -12,11 +12,11 @@ import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class GeneratedTests extends TestBase {
+public class TzarTests extends TestBase {
 
     @BeforeEach
     public void stepOpenPage() {
-        step("Open url 'https://tzar.ru/'", () ->
+        step("Open base url ", () ->
                 open("/"));
     }
 
