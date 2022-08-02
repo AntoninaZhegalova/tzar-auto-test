@@ -1,6 +1,7 @@
 package cloud.autotests.tests;
 
 import cloud.autotests.helpers.DriverUtils;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -13,10 +14,15 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class GeneratedTests extends TestBase {
 
+    @BeforeEach
+    public void stepOpenPage() {
+        step("Open url 'https://tzar.ru/'", () ->
+                open("/"));
+    }
+
     @Test
     @DisplayName("Rus-Eng switcher")
     void languageSwitcherTest() {
-        step("Open home page", () -> open("/"));
 
         step("Set Eng", () -> $(".language-switcher-language-url").click());
 
@@ -28,8 +34,6 @@ public class GeneratedTests extends TestBase {
     @Test
     @DisplayName("Page title should have header text")
     void titleTest() {
-        step("Open url 'https://tzar.ru/'", () ->
-                open("/"));
 
         step("Page title should have text 'Home | Государственный музей-заповедник «Царское Село»'", () -> {
             String expectedTitle = "Home | Государственный музей-заповедник «Царское Село»";
@@ -42,7 +46,6 @@ public class GeneratedTests extends TestBase {
     @Test
     @DisplayName("Open e-ticket page from secondary-menu")
     void ticketPageTest() {
-        step("Open home page", () -> open("/"));
 
         step("Set button 'Билеты' from 'block-magazin-menu'", () -> $("#block-magazin").click());
 
@@ -56,7 +59,6 @@ public class GeneratedTests extends TestBase {
     @Test
     @DisplayName("Search from secondary-menu")
     void searchSimpleTest() {
-        step("Open home page", () -> open("/"));
 
         step("Set search icon", () -> $(".search-toggele").click());
 
@@ -74,8 +76,6 @@ public class GeneratedTests extends TestBase {
     @Test
     @DisplayName("Page console log should not have errors")
     void consoleShouldNotHaveErrorsTest() {
-        step("Open url 'https://tzar.ru/'", () ->
-                open("/"));
 
         step("Console logs should not contain text 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
@@ -83,5 +83,8 @@ public class GeneratedTests extends TestBase {
 
             assertThat(consoleLogs).doesNotContain(errorText);
         });
+
     }
+
+
 }
