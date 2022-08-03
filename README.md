@@ -112,20 +112,20 @@ allure serve build/allure-results
 
 ## ⛅: Основной отчет
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screens/allure-1.PNG">
+<img title="Allure Overview Dashboard" src="images/screens/allure-1.png">
 </p>
 
 ## 🧪: Тесты
 <p align="center">
-<img title="Allure Tests" src="images/screens/allure-4.PNG">
+<img title="Allure Tests" src="images/screens/allure-4.png">
 </p>
 
 ## 💹: Графики
 <p align="center">
-<img title="Allure Tests" src="images/screens/allure-2.PNG">
+<img title="Allure Tests" src="images/screens/allure-2.png">
 </p>
 <p align="center">
-<img title="Allure Tests" src="images/screens/allure-3.PNG">
+<img title="Allure Tests" src="images/screens/allure-3.png">
 </p>
 
 ## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
