@@ -33,7 +33,7 @@ public class TzarTests extends TestBase {
 
     @Test
     @DisplayName("Page title should have header text")
-    void titleTest() {
+    void maiPageTitleShouldHaveTextTest() {
 
         step("Page title should have text 'Home | Государственный музей-заповедник «Царское Село»'", () -> {
             String expectedTitle = "Home | Государственный музей-заповедник «Царское Село»";
@@ -45,7 +45,7 @@ public class TzarTests extends TestBase {
 
     @Test
     @DisplayName("Open e-ticket page from secondary-menu")
-    void ticketPageTest() {
+    void openTicketPageFromSecondaryMenuTest() {
 
         step("Set button 'Билеты' from 'block-magazin-menu'", () -> $("#block-magazin").click());
 
@@ -58,7 +58,7 @@ public class TzarTests extends TestBase {
 
     @Test
     @DisplayName("Search from secondary-menu")
-    void searchSimpleTest() {
+    void searchFromSecondaryMenuTest() {
 
         step("Set search icon", () -> $(".search-toggele").click());
 
