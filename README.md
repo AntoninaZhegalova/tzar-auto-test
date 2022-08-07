@@ -1,7 +1,7 @@
-# Проект по автоматизации IBS
+# Проект по автоматизации сайта Государственного музея заповедника "Царское село".
 
 
-## 🚀: Содержание:
+## 🚀 Содержание:
 
 - [Технологии и инструменты](#earth_africa-технологии-и-инструменты)
 - [Реализованные проверки](#earth_africa-Реализованные-проверки)
@@ -11,7 +11,7 @@
 - [Allure отчет](#earth_africa-Allure-отчет)
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
   
-## 🧰: Технологии и инструменты
+## 🧰 Технологии и инструменты:
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a>
@@ -25,7 +25,7 @@
 <a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
-## ⚓: Реализованные проверки
+## ⚓ Реализованные проверки:
 
 Тест 1
 - ✓ Открыть сайт https://tzar.ru/
@@ -55,11 +55,11 @@
 
 ## <img src="images/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/IBS_test/"> job </a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/azhegalova_hometask-14/"><img src="images/screens/jenkins.PNG" alt="Jenkins"/></a>
+<a href="https://jenkins.autotests.cloud/job/azhegalova_hometask-14/"><img src="images/screens/jenkins.png" alt="Jenkins"/></a>
 </p>
 
 
-## 🧙: Параметры сборки в Jenkins для примера:
+## 🧙 Параметры сборки в Jenkins для примера:
 
 - Browser (браузер, по умолчанию chrome)
 - Version (версия браузера, по умолчанию 100.0)
@@ -67,7 +67,7 @@
 
 
 
-## 🏗️: Команды для запуска тестов из терминала:
+## 🏗️ Команды для запуска тестов из терминала:
 Локальный запуск:
 ```
 gradle clean test
@@ -83,7 +83,7 @@ test
 -Durl=${REMOTE_URL}
 ```
 
-# Примеры использования
+# Примеры использования:
 
 ### Для запуска удаленных тестов необходимо заполнить remote.properties или передать значение. Например:
 
@@ -110,17 +110,17 @@ allure serve build/allure-results
 ```
 ## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/azhegalova_hometask-14/4/allure">Allure report</a>
 
-## ⛅: Основной отчет
+## ⛅ Основной отчет:
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/screens/allure-1.png">
 </p>
 
-## 🧪: Тесты
+## 🧪 Тесты:
 <p align="center">
 <img title="Allure Tests" src="images/screens/allure-4.png">
 </p>
 
-## 💹: Графики
+## 💹 Графики:
 <p align="center">
 <img title="Allure Tests" src="images/screens/allure-2.png">
 </p>
@@ -128,5 +128,19 @@ allure serve build/allure-results
 <img title="Allure Tests" src="images/screens/allure-3.png">
 </p>
 
-## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
+## <img src="images/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота: 
 
+<p align="center">
+<img title="Allure Overview Dashboard" src="images/screens/telegram.png" >
+</p>
+
+## ⬇️ Примеры запуска тестов в Selenoid:
+## <img src="images/logo/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Видео 1 <a target="_blank" href="https://selenoid.autotests.cloud/video/fe43b9f89a795109ff4959044e6650d7.mp4">прохождения тестов </a>
+<p align="center">
+<a href="        "></a>
+</p>
+
+## <img src="images/logo/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Видео 2 <a target="_blank" href="https://selenoid.autotests.cloud/video/1c3aeafdd0e50cdb8a04321ea7b3af5d.mp4">прохождения тестов </a>
+<p align="center">
+<a href="     "></a>
+</p>
