@@ -135,12 +135,12 @@ allure serve build/allure-results
 </p>
 
 ## ⬇️ Примеры запуска тестов в Selenoid:
-## <img src="images/logo/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Видео 1 <a target="_blank" href="https://selenoid.autotests.cloud/video/fe43b9f89a795109ff4959044e6650d7.mp4">прохождения тестов </a>
+## <img src="images/logo/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Видео 1 <a target="_blank" href="               ">прохождения тестов </a>
 <p align="center">
 <a href="        "></a>
 </p>
 
-## <img src="images/logo/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Видео 2 <a target="_blank" href="https://selenoid.autotests.cloud/video/1c3aeafdd0e50cdb8a04321ea7b3af5d.mp4">прохождения тестов </a>
+## <img src="images/logo/Selenoid.svg" width="25" height="25" alt="Jenkins"/></a> Видео 2 <a target="_blank" href="            ">прохождения тестов </a>
 <p align="center">
 <a href="     "></a>
 </p>
