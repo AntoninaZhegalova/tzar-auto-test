@@ -121,19 +121,14 @@ allure serve build/allure-results
 
 Скриншоты:
 
-Allure:
-
-* Основной отчет:
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/screens/allure-1.png">
 </p>
 
-* Тесты:
 <p align="center">
 <img title="Allure Tests" src="images/screens/allure-4.png">
 </p>
 
-* Графики:
 <p align="center">
 <img title="Allure Tests" src="images/screens/allure-2.png">
 </p>
