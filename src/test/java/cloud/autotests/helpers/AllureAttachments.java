@@ -35,6 +35,7 @@ public class AllureAttachments {
     }
 
     public static void addVideo(String sessionId) {
+        LOGGER.info("attach video session {}", sessionId);
         URL videoUrl = DriverUtils.getVideoUrl(sessionId);
         if (videoUrl != null) {
             InputStream videoInputStream = null;
