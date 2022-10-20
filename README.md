@@ -119,6 +119,16 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 allure serve build/allure-results
 ```
 
+Примеры запуска тестов в Selenoid:
+
+<p align="center">
+<img title="Video" src="images/screens/Video example 1.gif" width="1500" alt="video">
+</p>
+
+<p align="center">
+<img title="Video" src="images/screens/Video example 2.gif" width="1500" alt="video">
+</p>
+
 Скриншоты:
 
 <p align="center">
@@ -142,14 +152,3 @@ allure serve build/allure-results
 <img title="Allure Overview Dashboard" src="images/screens/telegram.png" >
 </p>
 
-Примеры запуска тестов в Selenoid:
-
-* <a target="_blank" href="https://selenoid.autotests.cloud/video/e0d38be6e46b6161571bf42e890c2c7f.mp4"> Selenoid video example 1</a>
-<p align="center">
-<a href="https://selenoid.autotests.cloud/video/e0d38be6e46b6161571bf42e890c2c7f.mp4"></a>
-</p>
-
-* <a target="_blank" href="https://selenoid.autotests.cloud/video/9c771aff38bd9dbd13661d1fd759e4a2.mp4"> Selenoid video example 2 </a>
-<p align="center">
-<a href="https://selenoid.autotests.cloud/video/9c771aff38bd9dbd13661d1fd759e4a2.mp4"></a>
-</p>
